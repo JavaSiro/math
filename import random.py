@@ -18,7 +18,7 @@ def generate_problem():
 
 
 wrong = 0
-input("Press enter to start!")
+input("Press enter to start.")
 print("----------------------")
 
 start_time = time.time()
@@ -35,4 +35,4 @@ end_time = time.time()
 total_time = round(end_time - start_time, 2)
 
 print("----------------------")
-print("Nice work! You finished in", total_time, "seconds!")
+print("You finished in", total_time, "seconds!")
